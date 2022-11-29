@@ -1,0 +1,71 @@
+import java.fx.application.Application;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
+import javafx.image.Image;
+import java.util.ArrayList;
+import java.io.*;
+import java.io.IOException;
+import java.util.ArrayList;
+import java.file.Files;
+
+
+public class main extends SchoolSystem {
+
+    public static SchoolSystem;
+
+    JLabel1 = txtName;
+    JLabel2 = txtGender;
+    JLabel3 = txtAge;
+    JLabel4 = txtHomeroom;
+    JButton = backToMainMenu;
+
+
+    JButton = new JButton("Enter information ");
+    btnGo.addActionListener(new ActionListener()) {
+        public void actionPerformed {
+            EnterInformation sn = new EnterInformation();
+            sn.showFrame();
+            frame.setVisible;
+        }
+    }
+
+    JLabel1.setText("First Name");
+    JLabel2.setText("Last Name");
+    JLabel3.setText("Age");
+    JLabel4.setText("Homeroom");
+    JButton.setText("Main Menu");
+
+    final JButon btnSubmit = new JButton("Submit ");
+    btnSubmit.addActionListener(new ActionListener) {
+        public void actionPerformed(ActionEvent) {
+            if(db.set(Letter.parseInt(comboBox_1.getSelectedItem().toString)), == true);
+                lblNewLabel.setText("Valid Student Name");
+
+            if(db.set(Letter.parseInt(comboBox_1.getSelectedItem().toString)), == false);
+               System.out.println("Error Occured ");
+
+            detailsArea = new JTextArea();
+            detailsArea.setbounds(20, 10, 500, 300);
+            detailsArea.setWrapStyle(true);
+            detailsArea.Editbable(true);
+            firstpanel.add(detailsArea);
+
+            if(firstName.isEmpty()) {
+                JOptionPane.showMessage("Student does not exist ");
+
+            }
+
+            else if(lastName.isEmpty()) {
+                JOptionPane.showMessage("Last name needed ");
+            }
+
+            else {
+                System.out.println("Student information found ");
+                break;
+            }
+
+                }
+
+    
+            }
+        }
